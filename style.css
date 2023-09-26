@@ -1,0 +1,73 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+nav
+{
+    
+    height: 100px;
+    width: auto;
+    background-color: #FDFEFE;
+    /* border-bottom: 2px solid black; */
+}
+
+nav *
+{
+    display: inline-block;
+    margin: 0 auto;
+   line-height: 60px;
+   padding: 10px;
+
+}
+
+a
+{
+    text-decoration: none;
+    color: black;
+}
+#logo
+{
+    font-size: 300%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+nav a
+{
+    float: right;
+    position: relative;
+    right: 50px;
+}
+.slider p
+{
+    z-index: -1;
+}
+.slider
+{
+    height: 300px;
+    width: auto;
+    /* background-color: #CACFD2; */
+    padding: 10px; 
+}
+
+.slider div
+{
+    display: inline;
+    position: relative;
+    left: 110px;
+}
+
+#sl1, #sl2, #sl3
+{
+    
+    margin: 0 auto;
+    height: 300px;
+    width:auto;
+}
+
+
+
+
+
+
