@@ -50,22 +50,46 @@ nav a
     /* background-color: #CACFD2; */
     padding: 10px; 
 }
+html
+{
+    scroll-behavior: smooth;
+}
 
 .slider div
 {
     display: inline;
     position: relative;
-    left: 110px;
+    left: 60px;
 }
 
 #sl1, #sl2, #sl3
 {
     
-    margin: 0 auto;
+    margin: 0 20px;
     height: 300px;
     width:auto;
 }
 
+#sl3:hover
+{
+    transform: scale(1.1);
+}
+
+#sl2:hover
+{
+    transform: scale(1.1);
+}
+
+#sl1:hover
+{
+    transform: scale(1.1);
+}
+
+.sale p, .slider p
+{
+    text-align: center;
+    font-size: 100%;
+}
 
 
 
